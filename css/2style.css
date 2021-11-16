@@ -1,0 +1,120 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+.search-box {
+    left: 41%;
+    top: 50%;
+	display: flex;
+	position: absolute;
+	background-color: #2f3640;
+	height: 50px;
+	border-radius: 80px;
+	width: 240px;
+	padding: 0;
+    
+    
+}
+
+
+.search-txt {
+	border: none;
+	outline: none;
+	background: none;
+	color: #fff;
+	font-size: 17px;
+    height: 50px;
+	width: 240px;
+	padding: 0 10px;
+}
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #f0f0f0;
+    background: url(https://preview.redd.it/ejgf3cxzwlk51.gif?overlay-align=bottom,left&crop=1200:628.272251309,smart&overlay-height=15p&overlay=%2Fwatermark%2Ft5_2ql09.png%3Fs%3D312820cd8bc0a54e6624bbf444cb3cf0defec641&width=1200&height=628.272251309&s=3bb8f493a94c1090aee87b75396755fc3d257d3d);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+input[type=image] {
+    padding-left: 2px;
+    padding-top: 7px;
+    position: absolute;
+    border-radius: 20px;
+    padding: 8px; 
+    background-color: #2f3640;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+
+
+
+}
+
+
+#cd-intro {
+    background-image: url('https://i.pinimg.com/originals/ee/e0/c1/eee0c1dc806da44930fc6eb26b94a737.gif');
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    margin: auto;
+    
+
+}
+
+
+.search-box2 {
+    left: 41%;
+    bottom: 20%;
+	display: flex;
+	position: absolute;
+	background-color: #2f3640;
+	height: 50px;
+	border-radius: 80px;
+	width: 240px;
+	padding: 0;
+    
+    
+}
+
+
+.search-txt2 {
+	border: none;
+	outline: none;
+	background: none;
+	color: #fff;
+	font-size: 17px;
+    height: 50px;
+	width: 240px;
+	padding: 0 10px;
+}
+
+input[type=image] {
+    padding-left: 2px;
+    padding-top: 7px;
+    position: absolute;
+    border-radius: 20px;
+    padding: 8px; 
+    background-color: #2f3640;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+
+
+
+}

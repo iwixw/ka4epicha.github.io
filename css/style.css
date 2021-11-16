@@ -9,53 +9,61 @@ Primary style
 
 
 .container {
+  
+  font-weight: 500;
   position: absolute;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 3;
-  line-height: 1.5;
+  line-height: 1.7;
+  color: #b4b4b4;
+  word-spacing: 3px; 
   
 
 }
 
 a {
   text-decoration: none;
-  color: #bfbfbf;
+  color: #c7c7c7;
   font-weight: 500;
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 17.8px;
   transition: 0.25s;
+  word-spacing: 3px; 
 
 }
 
 .container a:hover {
   transition: 0.25s;
   color: #fff;
-  font-size: 20.2px;
+  font-size: 17.8px;
   text-shadow: 0 0 5px #fff;
 }
 
 a:hover i {
   transition: 0.25s;
   color: #fff;
-  font-size: 20.2px;
+  font-size: 17.8px;
   text-shadow: 0 0 5px #fff;
 }
 
 .container a {
   text-decoration: none;
-  color: #dddddd;
+  color: #c7c7c7;
   font-weight: 500;
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 17.8px;
   transition: 0.25s;
 }
 
 .container i {
-  font-size: 20px;
+  font-size: 17px;
 }
+
+
+
 
 html * {
   -webkit-font-smoothing: antialiased;
@@ -212,10 +220,11 @@ Modules - reusable parts of our design
 
 .center-img {
   position: absolute;
-  top: 38%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 3;
 }
+
 
