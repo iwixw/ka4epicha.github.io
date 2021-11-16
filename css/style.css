@@ -1,0 +1,221 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+
+  
+
+
+.container {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 3;
+  line-height: 1.5;
+  
+
+}
+
+a {
+  text-decoration: none;
+  color: #bfbfbf;
+  font-weight: 500;
+  font-family: Open Sans;
+  font-size: 20px;
+  transition: 0.25s;
+
+}
+
+.container a:hover {
+  transition: 0.25s;
+  color: #fff;
+  font-size: 20.2px;
+  text-shadow: 0 0 5px #fff;
+}
+
+a:hover i {
+  transition: 0.25s;
+  color: #fff;
+  font-size: 20.2px;
+  text-shadow: 0 0 5px #fff;
+}
+
+.container a {
+  text-decoration: none;
+  color: #dddddd;
+  font-weight: 500;
+  font-family: Open Sans;
+  font-size: 20px;
+  transition: 0.25s;
+}
+
+.container i {
+  font-size: 20px;
+}
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  /* important for the full-width image to work */
+  height: 100%;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #2e2d32;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+
+#cd-main-content {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background-color: #3a393f;
+  /* slightly visible only when we resize this element */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+#cd-main-content.move-out {
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+
+#cd-intro h1 {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 55%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-family: 'Yuji Mai', serif;
+  text-align: center;
+  font-size: 30px;
+  font-size: 3.125rem;
+  
+}
+
+#cd-intro h1:hover {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 55%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-family: 'Yuji Mai', serif;
+  text-align: center;
+  font-size: 30px;
+  font-size: 3.125rem;
+  transition: 1s;
+  text-shadow: 0 0 30px #ffffff;
+  
+}
+
+
+#cd-intro {
+    background-image: url('https://i.pinimg.com/originals/ee/e0/c1/eee0c1dc806da44930fc6eb26b94a737.gif');
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    margin: auto;
+
+}
+
+
+
+.cd-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+  background: rgba(6, 6, 7, 0.6);
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s;
+  
+}
+@media only screen and (min-width: 768px) {
+  .cd-header {
+    height: 80px;
+  }
+}
+
+
+
+#cd-logo {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 100px;
+  height: 32px;
+  
+}
+#cd-logo img {
+  display: block;
+}
+
+
+.center-img {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 3;
+}
+
